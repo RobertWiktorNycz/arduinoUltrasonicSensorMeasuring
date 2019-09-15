@@ -14,6 +14,7 @@ Explanation of calculations:
   and dividing the result by half because of the return wave
   and conversion of equation of speed (speed = distance / time )
   so distance = speed * time .
+  Result is in CM.
   
   Delay of 2 microseconds is required to make sure that the tigger pin is on LOW state.
   Delay of 10 microseconds is required to send out the ultrasound wave.
