@@ -39,10 +39,13 @@ void loop() {
   // and dividing the result by half because of the return wave
   // and conversion of equation of speed (speed = distance / time )
   // so distance = speed * time
+  // Result is in CM
   
   distance = duration * 0.034 / 2;
 
   // print the distance in serial monitor
-  Serial.print(" Distance: ");
+  Serial.print(" Distance in CM: ");
   Serial.println(distance);
+  // wait for 1 second for next reading
+  delay(1000);
 }
